@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!--custom css link-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--custom boxicons link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--custom google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Start Home-->
+    <section class="home show" id="home">
+        <!--Sign In & Register-->
+        <div class="form_container">
+            <a href="./index.html"><i class='bx bxs-left-arrow-circle form_back'></i></a>
+            <!--Sign Up Form-->
+            <div class="form login_form">
+                <form action="#">
+                    <h2>Sign Up</h2>
+
+                    <div class="input_box">
+                        <input type="email" placeholder="Email" required>
+                        <i class='bx bx-envelope email'></i>
+                    </div>
+
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter Password" required>
+                        <i class='bx bx-lock-alt password'></i>
+                        <i class='bx bx-low-vision pw_hide'></i>
+                    </div>
+
+                    <div class="input_box">
+                        <input type="password" placeholder="Confirm Password" required>
+                        <i class='bx bx-lock-alt password'></i>
+                        <i class='bx bx-low-vision pw_hide'></i>
+                    </div>
+
+                    <button class="button"><a href="./afterSign.html" class="sign-btn">Sign Up</a></button>
+
+                    <div class="login_signup">
+                        Already have an account? <a href="./signIn.html" id="signin">Sign In</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--End Home-->
+</body>
+</html>

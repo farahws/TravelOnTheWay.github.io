@@ -1,0 +1,122 @@
+Hotel Icon :
+<a href="https://www.flaticon.com/free-icons/hotel" title="hotel icons">Hotel icons created by Freepik - Flaticon</a>
+
+Restaurant Icon :
+<a href="https://www.flaticon.com/free-icons/restaurant-building" title="restaurant building icons">Restaurant building icons created by Freepik - Flaticon</a>
+
+Airplane Icom for Logo :
+<a href="https://www.flaticon.com/free-icons/plane" title="plane icons">Plane icons created by Freepik - Flaticon</a>
+
+Artikel // Pas di bawah home
+
+kuliner / wisata / shop / permainan
+
+<!--Start Categories Section-->
+<!--End Categories Section-->
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #20201f;
+    --second-color: #B09156;
+    --main-color: #1B3A4C;
+    --third-color: #FFEE55;
+    --fourth-color: #a49e23;
+    --big-font: 3.8rem;
+    --h2-font: 2.6rem;
+    --p-font: 1rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--main-color);
+}
+
+## Dari index.html ##
+
+<!--Start Container
+    <section class="container">
+        <div class="container-box">
+            <div class="container-img">
+                <img src="img/key.png" alt="">
+            </div>
+            <div class="container-text">
+                <h4>1K</h4>
+                <p>Accomodation</p>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <div class="container-img">
+                <img src="img/menu.png" alt="">
+            </div>
+            <div class="container-text">
+                <h4>1K</h4>
+                <p>Culinary</p>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <div class="container-img">
+                <img src="img/tour.png" alt="">
+            </div>
+            <div class="container-text">
+                <h4>1K</h4>
+                <p>Tour</p>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <div class="container-img">
+                <img src="img/beach.png" alt="">
+            </div>
+            <div class="container-text">
+                <h4>1K</h4>
+                <p>Nature Tourism</p>
+            </div>
+        </div>
+    </section>
+    End Container-->
+
+
+    icons
+
+    <!--<div class="header-icons">
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href=""><i class='bx bx-heart'></i></a>
+            <a href=""><i class='bx bx-search'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>-->
+
+
+        /*
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons i {
+    margin-left: 10px;
+    font-size: 24px;
+    color: var(--text-color);
+    transition: all .40s ease;
+    margin-right: 15px;
+}
+
+.header-icons i:hover {
+    transform: scale(1.2);
+    color: var(--fourth-color);
+}
+*/
